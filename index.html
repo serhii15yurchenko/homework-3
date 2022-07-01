@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Семантичні елементи</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#main-info">HTML5 Семантичні елементи</a></li>
+                <li><a href="#support">Підтримка браузерів</a></li>
+                <li><a href="#list-elements">Нові семантичні елементи в HTML5</a></li>
+                <li><a href="#section-element">HTML5 &ltsection&gt елемент</a></li>
+                <li><a href="#article-element">HTML5 &ltarticle&gt елемент</a></li>
+                <li><a href="#header-element">HTML5 &ltheader&gt елемент</a></li>
+                <li><a href="#footer-element">HTML5 &ltfooter&gt елемент</a></li>
+                <li><a href="#cv-example">Резюме</a></li>
+                <li><a href="#video">Front-End розробка. Сучасні тренди</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article id="main-info">
+                <h1> HTML5 Семантичні елементи</h1>
+                <p>Семантичний елемент чітко описує його значення як для браузера, так і для розробника.</p>
+                <p>Приклади не <b>семантичних</b> елементів: &ltdiv&gt і &ltspan&gt- нічого не говорить про його вміст.</p>
+                <p> Приклади <b>семантичних</b> елементів: &ltform&gt, &lttable&gt і &ltarticle&gt - чітко визначає його зміст.</p>
+            </article>
+            <article id="support">
+                <h2> Підтримка браузерів</h2>
+                <img src="img/chrome-icon.png" alt="chrome-icon" width="50" height="50">
+                <img src="img/explorer-icon.png" alt="explorer-icon" width="50" height="50">
+                <img src="img/mozilla-icon.png" alt="mozilla-icon" width="50" height="50">
+                <img src="img/safari-icon.png" alt="safari-icon" width="50" height="50">
+                <img src="img/opera-icon.png" alt="opera-icon" width="50" height="50">
+                <p> Семантичні елементи HTML5 підтримуються у всіх сучасних браузерах.</p>
+                <p>Крім того, ви можете "навчити" старих браузерів, як обробляти "невідомі елементи".</p>
+                <p>Прочитайте про це в <a href="https://www.blogger.com/onboarding" target="_blank">підтримці браузера HTML5</a>.</p>
+            </article>
+            <article id="list-elements">
+                <h2>Нові семантичні елементи в HTML5</h2>
+                <p>HTML5 пропонує нові семантичні елементи для визначення різних частин веб-сторінки:
+                    <ul>
+                        <li>&ltsection&gt</li>
+                        <li>&ltarticle&gt</li>
+                        <li>&ltheader&gt</li>
+                        <li>&ltfooter&gt</li>
+                    </ul>
+                </p>
+            </article>
+            <article id="section-element">
+                <h2>HTML5 &ltsection&gt елемент</h2>
+                <p>Елемент &ltsection&gt визначає розділ в документі.</p>
+                <p>Згідно з документацією в3к'с HTML5: "розділ представляє собою тематичну угруповання контенту, зазвичай з заголовком".</p>
+                <p>Домашня сторінка зазвичай може бути розділена на розділи для ознайомлення, змісту і контактної інформації.</p>
+                <img src="img/section-element.PNG" alt="section-element">
+            </article>
+            <article id="article-element">
+                <h2>HTML5 &ltarticle&gt елемент</h2>
+                <p>Елемент &ltarticle&gt визначає незалежний, автономний вміст.</p>
+                <p>Стаття повинна мати сенс самостійно, і вона повинна мати можливість читати його незалежно від іншої частини веб-сайту.</p>
+                <p>Приклади того, де можна використовувати елемент &ltarticle&gt:
+                    <ul>
+                        <li>Повідомлення на форумі</li>
+                        <li>блозі</li>
+                        <li>Газетна стаття</li>
+                    </ul>
+                </p>
+                <img src="img/article-element.PNG" alt="article-element">
+            </article>
+            <article id="header-element">
+                <h2>HTML5 &ltheader&gt елемент</h2>
+                <p>Елемент &ltheader&gt задає заголовок для документа або розділу.</p>
+                <p>Елемент &ltheader&gt повинен використовуватися в якості контейнера для вступного змісту.</p>
+                <p>В одному документі може бути кілька елементів &ltheader&gt.</p>
+                <p>У наступному прикладі визначається заголовок для статті:</p>
+                <img src="img/header-element.PNG" alt="header-element">
+            </article>
+            <article id="footer-element">
+                <h2>HTML5 &ltfooter&gt елемент</h2>
+                <p>Елемент &ltfooter&gt вказує нижній колонтитул для документа або розділу.</p>
+                <p>Нижній колонтитул зазвичай містить автора документа, інформацію про авторське право, 
+                    посилання на умови використання, контактні дані і т.д.
+                </p>
+                <p>В одному документі може бути кілька елементів &ltfooter&gt.</p>
+                <img src="img/footer-element.PNG" alt="footer-element">
+            </article>
+        </section>
+        <section id="cv-example">
+            <h2>Резюме</h2>
+            <iframe src="https://serhii15yurchenko.github.io/homework-1/" frameborder="1" height="500" width="1000"></iframe>
+        </section>
+        <section id="video">
+            <h2>Front-End розробка. Сучасні тренди</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dEBVe8Ij7JU" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+            encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+        </section>
+    </main>
+</body>
+</html>
